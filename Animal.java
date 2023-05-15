@@ -8,4 +8,9 @@ public class Animal {
     public String getName(){
         return this.name;   
     }
+
+    public Animal setName(String name) {
+        this.name = name;
+        return this;
+    }
 }
