@@ -8,5 +8,6 @@ public class Main {
         int e = 25;
         int q = 30;
         int f = 35;
+        int h = 40;
     }
 }
