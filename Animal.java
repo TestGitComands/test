@@ -4,4 +4,8 @@ public class Animal {
     private Integer age;
 
     private String desc;
+    
+    public String getName(){
+        return this.name;   
+    }
 }
