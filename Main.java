@@ -7,5 +7,6 @@ public class Main {
         int d = 20;
         int e = 25;
         int q = 30;
+        int h = 40;
     }
 }
