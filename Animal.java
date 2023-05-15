@@ -13,4 +13,8 @@ public class Animal {
         this.name = name;
         return this;
     }
+
+    public Integer getAge() {
+        return age;
+    }
 }
