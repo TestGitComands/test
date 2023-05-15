@@ -17,4 +17,9 @@ public class Animal {
     public Integer getAge() {
         return age;
     }
+
+    public Animal setDesc(String desc) {
+        this.desc = desc;
+        return this;
+    }
 }
