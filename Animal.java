@@ -28,7 +28,6 @@ public class Animal {
     }
 
     public String getDesc() {
-        //TODO
         return desc;
     }
 }
