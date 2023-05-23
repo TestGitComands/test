@@ -26,4 +26,8 @@ public class Animal {
         this.desc = desc;
         return this;
     }
+    
+    public String getDesc(){
+        return desc
+    }
 }
