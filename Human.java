@@ -15,7 +15,7 @@ public class Human {
         this.age = age;
     }
     
-    public int getName() {
+    public String getName() {
         return name;
     }
 }

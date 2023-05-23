@@ -9,5 +9,6 @@ public class Main {
         int q = 30;
         int f = 35;
         int h = 40;
+        int ab = 45;
     }
 }
