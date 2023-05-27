@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Animal {
 
     private String name;
@@ -36,7 +38,24 @@ public class Animal {
         this.age = age;
         this.desc = desc;
     }
-    
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (!(o instanceof Animal animal)) {
+            return false;
+        }
+        return Objects.equals(getName(), animal.getName()) && Objects.equals(getAge(), animal.getAge()) && Objects.equals(getDesc(),
+            animal.getDesc());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getAge(), getDesc());
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
