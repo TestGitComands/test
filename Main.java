@@ -10,5 +10,6 @@ public class Main {
         int f = 35;
         int h = 40;
         int ab = 45;
+        int ca = 50;
     }
 }
