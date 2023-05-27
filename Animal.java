@@ -30,4 +30,9 @@ public class Animal {
     public String getDesc() {
         return desc;
     }
+
+    public Animal setAge(Integer age) {
+        this.age = age;
+        return this;
+    }
 }
