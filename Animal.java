@@ -36,4 +36,13 @@ public class Animal {
         this.age = age;
         this.desc = desc;
     }
+    
+    @Override
+    public String toString() {
+        return "Animal{" +
+            "name='" + name + '\'' +
+            ", age=" + age +
+            ", desc='" + desc + '\'' +
+            '}';
+    }
 }
