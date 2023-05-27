@@ -2,7 +2,6 @@ public class Animal {
 
     private String name;
     private Integer age;
-
     private String desc;
     
     public String getName(){
@@ -16,10 +15,6 @@ public class Animal {
 
     public Integer getAge() {
         return age;
-    }
-    
-    public void setAge(int age){
-        this.age = age;   
     }
 
     public Animal setDesc(String desc) {
