@@ -13,5 +13,6 @@ public class Main {
         int ca = 50;
         int re = 55;
         int rf = 60;
+        int rfd = 65;
     }
 }
