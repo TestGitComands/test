@@ -35,4 +35,10 @@ public class Animal {
         this.age = age;
         return this;
     }
+
+    public Animal(String name, Integer age, String desc) {
+        this.name = name;
+        this.age = age;
+        this.desc = desc;
+    }
 }
