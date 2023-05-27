@@ -11,5 +11,7 @@ public class Main {
         int h = 40;
         int ab = 45;
         int ca = 50;
+        int re = 55;
+        int rf = 60;
     }
 }
