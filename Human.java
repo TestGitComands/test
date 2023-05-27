@@ -18,4 +18,9 @@ public class Human {
     public String getName() {
         return name;
     }
+
+    public Human setName(String name) {
+        this.name = name;
+        return this;
+    }
 }
