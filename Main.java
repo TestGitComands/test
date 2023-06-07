@@ -14,5 +14,6 @@ public class Main {
         int re = 55;
         int rf = 60;
         int rfd = 65;
+        int ac = 70;
     }
 }
